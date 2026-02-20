@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0e1a12;
+    color: white;
+    line-height: 1.5;
+}
+
+
+header {
+    background-color: #1f7a3b;
+    padding: 15px;
+    border-bottom: 4px solid #0b3d1c;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+nav {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 6px 8px;
+}
+
+
+nav a {
+    padding: 14px;
+    border: 2px solid #0b3d1c;
+    background-color: #2aa65a;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    border: 2px solid #2aa65a;
+}
+
+
+nav li:nth-child(1) a { background-color: #2aa65a; } 
+nav li:nth-child(2) a { background-color: #c0392b; } 
+nav li:nth-child(3) a { background-color: #2980b9; } 
+nav li:nth-child(4) a { background-color: #8e44ad; } 
+nav li:nth-child(5) a { background-color: #f39c12; } 
+
+
+nav li:nth-child(1) a:hover { background-color: #0b3d1c; }
+nav li:nth-child(2) a:hover { background-color: #7a1f16; }
+nav li:nth-child(3) a:hover { background-color: #123d66; }
+nav li:nth-child(4) a:hover { background-color: #4c1f63; }
+nav li:nth-child(5) a:hover { background-color: #b9770e; }
+
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 30px;
+    color: #7bffb1;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #7bdcff;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffd36b;
+}
+
+
+p {
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 10px 14px;
+    border-left: 5px solid #2aa65a;
+    border-radius: 8px;
+}
+
+
+hr {
+    width: 80%;
+    border: none;
+    height: 3px;
+    background-color: #2aa65a;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 12px auto;
+    border-radius: 12px;
+    border: 3px solid #2aa65a;
+    max-width: 90%;
+}
+
+
+footer {
+    margin-top: 5px;
+    background-color: #101a14;
+    padding: 15px;
+}
+
+
+
+footer nav {
+    margin: 30px;
+    border-top: 3px solid #2aa65a;
+    padding:30px;
+}

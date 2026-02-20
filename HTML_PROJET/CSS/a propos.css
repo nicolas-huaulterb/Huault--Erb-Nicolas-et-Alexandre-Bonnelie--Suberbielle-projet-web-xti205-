@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../MEDIA/img/img_top.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #222;
+}
+
+header, .presentation, footer {
+    margin: 15px 0;
+    padding: 18px;
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* Présentation texte + image */
+.presentation {
+    display: flex;           /* texte à gauche, image à droite */
+    align-items: center;
+    gap: 30px;
+}
+
+
+.presentation .texte1,
+.presentation .texte2 {
+    width: 55%;   
+}
+
+
+.presentation .img1,
+.presentation .img2 {
+    width: 45%;  
+}
+
+.presentation img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+
+.presentation p {
+    text-align: center;
+    font-style: italic;
+}
+
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav a {
+    color: red;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    color: blue;
+}

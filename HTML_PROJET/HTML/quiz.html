@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/quiz.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Pour les nuls</title>
+</head>
+<body>
+    <header>
+        <h1>Minecraft pour les nuls</h1>
+        <nav>
+            <a href="./accueil.html">Accueil</a>
+            <a href="./biomes.html">Biomes</a>
+            <a href="./mobs.html">Mobs</a>
+            <a href="./outils.html">Outils</a>
+            <a href="./a propos.html">A propos</a>
+        </nav>
+    </header>
+
+    <div id="texte">
+        <p>
+            Testez vos connaissances sur les fondamentaux de Minecraft : crafting, biomes, mobs ! <br>
+            Que vous soyez débutant ou déjà joueur expérimenté, venez voir si vous maîtrisez vraiment le jeu.
+        </p>
+    </div>
+
+    <button class="BoutonQuiz" onclick="demarrerQuiz()">Commencer le quiz</button>
+
+    <fieldset class="cadre-quiz" id="quizMinecraft">
+
+        <legend class="quiz">Quiz Minecraft pour les nuls</legend>
+        <ol>
+
+            <p>Quel biome est couvert de neige ?</p>
+            <input type="radio" id="q1a" name="q1" value="1">
+            <label for="q1a">a) Désert</label><br>
+            <input type="radio" id="q1b" name="q1" value="2">
+            <label for="q1b">b) Taïga</label><br>
+            <input type="radio" id="q1c" name="q1" value="3">
+            <label for="q1c">c) Jungle</label><br>
+
+        
+            <p>Quel outil est le plus efficace pour couper du bois ?</p>
+            <input type="radio" id="q2a" name="q2" value="1">
+            <label for="q2a">a) Pioche</label><br>
+            <input type="radio" id="q2b" name="q2" value="2">
+            <label for="q2b">b) Hache</label><br>
+            <input type="radio" id="q2c" name="q2" value="3">
+            <label for="q2c">c) Pelle</label><br>
+
+            <p>Quel mob est hostile la nuit ?</p>
+            <input type="radio" id="q3a" name="q3" value="1">
+            <label for="q3a">a) Zombie</label><br>
+            <input type="radio" id="q3b" name="q3" value="2">
+            <label for="q3b">b) Vache</label><br>
+            <input type="radio" id="q3c" name="q3" value="3">
+            <label for="q3c">c) Cochon</label><br>
+
+            <p>Dans quel biome trouve-t-on principalement des cactus ?</p>
+            <input type="radio" id="q4a" name="q4" value="1">
+            <label for="q4a">a) Désert</label><br>
+            <input type="radio" id="q4b" name="q4" value="2">
+            <label for="q4b">b) Forêt</label><br>
+            <input type="radio" id="q4c" name="q4" value="3">
+            <label for="q4c">c) Marais</label><br>
+
+            <p>Quel outil est utilisé pour creuser la terre ou le sable plus rapidement ?</p>
+            <input type="radio" id="q5a" name="q5" value="1">
+            <label for="q5a">a) Pelle</label><br>
+            <input type="radio" id="q5b" name="q5" value="2">
+            <label for="q5b">b) Hache</label><br>
+            <input type="radio" id="q5c" name="q5" value="3">
+            <label for="q5c">c) Pioche</label><br>
+            
+        </ol>
+        
+        <button type="button" id="envoyer" onclick="submitQuiz()">Envoyer</button>
+
+    </fieldset>
+
+    
+    <table id="result">
+        <thead>
+            <tr>
+                <th>Essai</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <footer>
+        <nav>
+            <a href="./biomes.html">Biomes</a>
+            <a href="./mobs.html">Mobs</a>
+            <a href="./outils.html">Outils</a>
+            <a href="./a propos.html">A propos</a>
+        </nav>
+    </footer>
+
+    <script src="../MEDIA/js/script.js"></script>
+</body>
+</html>

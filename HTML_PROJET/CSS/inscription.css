@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    background: url("../MEDIA/img/img_top.jpg") center/cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.formulaire{
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    width: 360px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.formulaire h2 {
+    text-align: center;
+    margin: 0 0 15px;
+    color: #222;
+    font-size: 26px;
+}
+
+.formulaire form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulaire label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: black;
+}
+
+.formulaire input {
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulaire button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.formulaire button:hover {
+    background: red
+}
+
+
+button a {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 8px;
+}   

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../MEDIA/img/img_top.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #222;
+}
+
+header, .presentation, .elements, .quiz, footer {
+    margin: 15px 0;
+    padding: 18px;
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    text-align: left;
+}
+
+.presentation h2 {
+    margin-bottom: 15px;
+}
+
+.presentation p {
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+
+.presentation .video {
+    max-width: 550px;
+}
+
+.presentation .video video {
+    width: 100%;
+    height: auto;
+}
+
+.grille-liens {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bloc-lien {
+    width: 260px;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+}
+
+
+.bloc-lien a {
+    color: black;
+}
+
+.bloc-lien h3 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.bloc-lien img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    height: 180px;
+}
+
+.quiz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.quiz-bouton button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quiz-bouton button:hover {
+    background: #d323239d;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
